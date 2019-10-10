@@ -6,12 +6,6 @@ logging:
 spring:
   application:
     name: STORE-ZUUL
-eureka:
-  instance:
-    prefer-ip-address: true #以ip注册到erueka中而不是主机名
-  client:
-    serviceUrl:
-      defaultZone: http://ROOT:880811@localhost:8761/eureka/ #eureka的注册地址876
 
 #/plat/**的请求全交到STORE-PLAT服务中去
 zuul:
