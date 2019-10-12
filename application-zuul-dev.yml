@@ -14,8 +14,8 @@ zuul:
   plat:
     path: /plat/**
     serviceId: STORE-PLAT
+  product:
+    serviceId: STORE-PRODUCT
+    path: /product/**
 
-#  employee:
- #   path: /employee/**
-  #  serviceId: SERVICE-zuul-EMPLOYEE
 
