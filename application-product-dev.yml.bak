@@ -2,7 +2,7 @@ server:
   port: 9999
 spring:
   application:
-    name: AIGOU-PRODUCT #服务名称
+    name: STORE-PRODUCT #服务名称
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql:///store?serverTimezone=GMT%2B8

@@ -15,7 +15,5 @@ zuul:
     path: /plat/**
     serviceId: STORE-PLAT
   product:
+    path: /store-product/**
     serviceId: STORE-PRODUCT
-    path: /product/**
-
-
