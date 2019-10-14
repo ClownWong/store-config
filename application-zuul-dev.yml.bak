@@ -19,7 +19,7 @@ zuul:
     serviceId: STORE-PRODUCT
   common:
     path: /common/**
-    serviceId: COMMON
+    serviceId: STORE-COMMON
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 6000
 ribbon:
   ConnectTimeout: 6000
