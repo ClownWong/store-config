@@ -17,3 +17,6 @@ zuul:
   product:
     path: /product/**
     serviceId: STORE-PRODUCT
+  common:
+    path: /common/**
+    serviceId: COMMON
