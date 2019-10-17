@@ -12,8 +12,8 @@ zuul:
  ignoredServices: '*' #不能使用服务名访问
  routes:
  host:
-    connect-timeout-millis: 3000
-    socket-timeout-millis: 3000
+    connect-timeout-millis: 6000
+    socket-timeout-millis: 6000
   plat:
     path: /plat/**
     serviceId: STORE-PLAT
