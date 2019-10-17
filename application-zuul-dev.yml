@@ -11,6 +11,9 @@ spring:
 zuul:
  ignoredServices: '*' #不能使用服务名访问
  routes:
+ host:
+    connect-timeout-millis: 6000
+    socket-timeout-millis: 6000
   plat:
     path: /plat/**
     serviceId: STORE-PLAT
@@ -31,7 +34,3 @@ hystrix:
 ribbon:
   ConnectTimeout: 6000
   ReadTimeout: 6000
-zuul:
-  host:
-    connect-timeout-millis: 6000
-    socket-timeout-millis: 6000
