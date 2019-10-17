@@ -27,7 +27,11 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 8000
+            timeoutInMilliseconds: 6000
 ribbon:
-  ConnectTimeout: 8000
-  ReadTimeout: 8000
+  ConnectTimeout: 6000
+  ReadTimeout: 6000
+zuul:
+  host:
+    connect-timeout-millis: 6000
+    socket-timeout-millis: 6000
