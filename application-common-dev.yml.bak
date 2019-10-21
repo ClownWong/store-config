@@ -9,3 +9,8 @@ logging:
 spring:
   application:
     name: STORE-COMMON
+  data:
+    elasticsearch:
+      cluster-nodes: localhost:9300
+    repositories:
+      enabled: true
